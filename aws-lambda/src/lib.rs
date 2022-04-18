@@ -25,6 +25,8 @@ use tokio::runtime;
 use trillium::{Conn, Handler};
 use trillium_http::{Conn as HttpConn, Synthetic};
 
+pub mod tutorial;
+
 mod context;
 pub use context::LambdaConnExt;
 use context::LambdaContext;
